@@ -5,7 +5,7 @@
 THEN PUT THIS CODE IN YOUR VSCODE AND RUN..
 
 from selenium import webdriver
-driver=webdriver.Chrome('C:\\Users\\ASUS\\Desktop\\driver\\chromedriver')
+driver=webdriver.Chrome('C:\\Users\\ASUS\\Desktop\\driver\\chromedriver') //HERE YOU HAVE TO ADD THE PATH WHERE YOU WEB DRIVER PRESENT
 
 driver.get('https://uims.cuchd.in/uims/')
 
