@@ -1,0 +1,19 @@
+## SPECIAL FOCUS ON WEBDRIVER AND SELENIUM PACKAGE IT ONLY RUN WHEN YOUR CHROME VERSION AND WEBDRIVER VERSION IS SAME....
+
+##WEBSITE TO DOWNLOAD WEBDRIVER LINK IS:::https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+THEN PUT THIS CODE IN YOUR VSCODE AND RUN..
+
+from selenium import webdriver
+driver=webdriver.Chrome('C:\\Users\\ASUS\\Desktop\\driver\\chromedriver')
+
+driver.get('https://uims.cuchd.in/uims/')
+
+driver.find_element_by_id('txtUserId').send_keys('enter your id')
+driver.find_element_by_name('btnNext').click()
+driver.find_element_by_id('txtLoginPassword').send_keys('enter your password')
+driver.find_element_by_name('btnLogin').click()
+driver.get('https://uims.cuchd.in/UIMS/frmAccountStudentDetails.aspx')
+driver.get('https://uims.cuchd.in/UIMS/frmStudentCourseWiseAttendanceSummary.aspx')
+
+
