@@ -13,7 +13,6 @@ driver.find_element_by_id('txtUserId').send_keys('enter your id')
 driver.find_element_by_name('btnNext').click()
 driver.find_element_by_id('txtLoginPassword').send_keys('enter your password')
 driver.find_element_by_name('btnLogin').click()
-driver.get('https://uims.cuchd.in/UIMS/frmAccountStudentDetails.aspx')
 driver.get('https://uims.cuchd.in/UIMS/frmStudentCourseWiseAttendanceSummary.aspx')
 
 
