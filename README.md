@@ -13,6 +13,7 @@ Daily login to CUims and checking my attendance was getting me irritated. So to 
 
 Recently I learned Python, so I thought why should not make this in python. I searched on Google that is there any module/library which can help me to implement my idea. I got a library named as selenium, which can automate the browser. Then I explored selenium and finally, I got the way to automate Cuims.
 
+*change this*
 I divided this into three parts:
 
 AutoLogin to Cuims and get the pdf downloaded into your Pc.
